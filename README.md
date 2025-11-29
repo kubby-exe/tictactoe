@@ -1,16 +1,67 @@
-# React + Vite
+# 🎮 Tic-Tac-Toe Premium
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, polished Tic-Tac-Toe experience featuring smart AI, glassmorphism aesthetics, and smooth animations. Created by Kubby.
 
-Currently, two official plugins are available:
+![Menu Preview](public/assets/menu_preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Two Game Modes**:
+  - ⚔️ **Player vs Player**: Challenge a friend on the same device.
+  - 🤖 **Player vs AI**: Test your skills against a smart AI opponent powered by the Minimax algorithm.
+- **Premium Design**:
+  - 🎨 **Glassmorphism UI**: Sleek, translucent panels and neon accents.
+  - 🎬 **Smooth Animations**: Satisfying pop-in effects and transitions.
+  - 📱 **Fully Responsive**: Optimized for desktop, tablet, and mobile.
+- **Smart Logic**:
+  - 🧠 **Unbeatable AI**: The AI plays optimally, making it a true challenge.
+  - ⚡ **Instant Feedback**: Real-time win detection and score tracking.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Gameplay Preview](public/assets/gameplay_preview.png)
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/tictactoe.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd tictactoe
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 🕹️ How to Play
+
+1. **Select Mode**: Choose between PvP or PvAI from the main menu.
+2. **Make a Move**: Click on any empty cell to place your symbol (X or O).
+3. **Win Condition**: Get 3 of your symbols in a row, column, or diagonal to win.
+4. **Draw**: If the board fills up without a winner, it's a draw.
+5. **Reset**: Use the "Reset Board" button to clear the grid or "Main Menu" to switch modes.
+
+## 🛠️ Technologies Used
+
+- **React**: Component-based UI architecture.
+- **Vite**: Blazing fast build tool and dev server.
+- **CSS3**: Custom animations, variables, and glassmorphism effects.
+- **Minimax Algorithm**: Recursive logic for the AI opponent.
+
+## 👨‍💻 Author
+
+**Kubby** - *Visionary Game Creator*
+
+---
+*Enjoy the game!* 🎮
